@@ -18,7 +18,7 @@ class SessionsController < ApplicationController
       session.delete :name
     else
       nil
-  end
+    end
   end
 
 end
