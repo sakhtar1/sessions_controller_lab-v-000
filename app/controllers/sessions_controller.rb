@@ -17,8 +17,8 @@ class SessionsController < ApplicationController
     if session[:name] = params[:name]
       session.delete :name
     else
-      session[:name] == nil
-    end
+      nil
+  end
   end
 
 end
