@@ -16,6 +16,7 @@ class SessionsController < ApplicationController
   def destroy
     if session[:name] = params[:name]
       session.delete :name
+      redirect_to '/logout'
     else
       nil
     end
